@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     domains: ["placehold.co"],
   },
+  experimental: {
+    trustHostHeader: true,
+  },
 };
 
 module.exports = nextConfig;
