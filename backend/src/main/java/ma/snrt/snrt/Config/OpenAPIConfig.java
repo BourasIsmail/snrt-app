@@ -17,13 +17,13 @@ public class OpenAPIConfig {
   @Bean
   public OpenAPI myOpenAPI() {
     Server devServer = new Server();
-    devServer.setUrl("http://localhost:8080/api/");
+    devServer.setUrl("http://92.222.25.97:8080/api/");
     devServer.setDescription("Server URL in Development environment");
 
 
 
     Server prodServer = new Server();
-    prodServer.setUrl("http://localhost:8080/api/");
+    prodServer.setUrl("http://92.222.25.97:8080/api/");
     prodServer.setDescription("Server URL in Production environment");
 
 

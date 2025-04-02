@@ -3,7 +3,7 @@ import axios from "axios";
 import { deleteCookie, getCookie, setCookie } from "cookies-next";
 
 const client = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "http://92.222.25.97:8080",
   headers: {
     "Content-Type": "application/json",
   },
