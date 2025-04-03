@@ -30,7 +30,7 @@ CREATE TABLE user_roles (
 );
 
 -- Insert the SUPER_ADMIN_ROLES role
-INSERT INTO roles (role) VALUES ('SUPER_ADMIN_ROLES');
+INSERT INTO roles (name) VALUES ('SUPER_ADMIN_ROLES');
 
 -- Insert the user
 INSERT INTO user (id, name, email, password, unite_id) VALUES

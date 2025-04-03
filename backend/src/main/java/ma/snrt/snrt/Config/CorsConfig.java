@@ -13,11 +13,11 @@ public class CorsConfig {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        //config.addAllowedOrigin("https://snrt.info");
-        //config.addAllowedOrigin("http://snrt.info");
-        //config.addAllowedOrigin("http://snrt.info:3000");
+        config.addAllowedOrigin("https://snrt.info");
+        config.addAllowedOrigin("http://snrt.info");
+        config.addAllowedOrigin("http://snrt.info:3000");
         config.addAllowedOrigin("https://snrt.info:3000");
-        //config.addAllowedOrigin("snrt.info");
+        config.addAllowedOrigin("snrt.info");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", config);
