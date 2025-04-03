@@ -1,13 +1,13 @@
 -- Create the unite table
 CREATE TABLE unite (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(100) NOT NULL
+    name VARCHAR(100) NOT NULL
 );
 
 -- Create the roles table
 CREATE TABLE roles (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    role VARCHAR(50) NOT NULL
+    name VARCHAR(50) NOT NULL
 );
 
 -- Create the user table
