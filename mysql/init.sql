@@ -7,6 +7,6 @@ CREATE TABLE roles (
 
 
 -- Insert the SUPER_ADMIN_ROLES role
-INSERT INTO roles (name) VALUES ('SUPER_ADMIN_ROLES');
+INSERT INTO roles (role) VALUES ('SUPER_ADMIN_ROLES');
 
 
